@@ -1,16 +1,59 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>Web</title>
+    <meta charset="utf-8">
+    <title>Home of Deynikin Maksim</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
   </head>
+
   <body>
-    <section id="page">
-      <header>Header</header>
-      <nav>Navigation</nav>
-      <footer>Footer</footer>
-    </section>
+    <header class="header">
+      <div class="container">
+        <nav class="main-menu">
+          <a href="#about">Обо мне</a>
+          <a href="#skills">Навыки</a>
+        </nav>
+        <div class="text-center py-5">
+          <h1>Дейникин Максим Юрьевич</h1>
+          <h2>Студент</h2>
+          <a class="btn contact-me-btn" href="mailto:makson1092@gmail.com">Написать мне</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container"> 
+        <section id="about">
+          <h1>
+            Обо мне
+          </h1>
+          <figure class="avatar">
+            <img src="images/person.png" alt="person">
+          </figure>
+          <p>
+            Я студент 2 курса Московского политехничего университета. Обучаюсь на специальности "Информационная безопасность" 
+          </p>
+        </section>
+        <section id="skills">
+          <h1>Навыки</h1>
+          <p>
+            <ul>
+              <li>c++</li>
+              <li>python</li>
+              <li>HTML&CSS</li>
+            </ul>
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        &copy; Дейникин М.Ю.
+      </div>
+    </footer>
   </body>
+
 </html>
