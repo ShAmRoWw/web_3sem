@@ -20,6 +20,10 @@ body {
   padding: 20px 0;
 }
 
+.main-menu a:hover {
+  color: lightgreen;
+}
+
 .main-menu a {
   text-decoration: none;
   color: white;
@@ -44,6 +48,15 @@ main p {
 }
 
 .btn {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  border: 2px solid blue;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn:hover {
   text-decoration: none;
   color: blue;
   font-weight: bold;
