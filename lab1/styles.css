@@ -87,3 +87,12 @@ main p {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+
+.table td {
+	border: 1px solid #000;
+	font-size: 20px;
+}
+
+.table table {
+	margin: 0 auto;
+}
