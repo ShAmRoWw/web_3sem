@@ -1,123 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pentest</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container flex">
+        <h1 class="logo">Пентест</h1>
+        <nav>
+          <ul>
+            <li class="nav"><a class="outline" href="">Log in</a></li>
+            <li class="nav"><a href="" class="outline">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <section class="showcase">
+      <div class="container">
+        <div class="grid">
+          <div class="grid-item-1">
+            <div class="showcase-text">
+              <h1>Пентестинг - что это такое?</h1>
+              <p class="supporting-text">
+                Пентестинг, или тестирование на прочность, представляет собой
+                эффективную методику проверки безопасности информационных
+                систем, сетей и приложений. Это процесс, который позволяет
+                выявить уязвимости в системах, прежде чем злоумышленники смогут
+                воспользоваться ими.
+              </p>
+            </div>
+          </div>
 
-<head>
-	<meta charset="UTF-8">
-	<title>MYLOGO</title>
-	<link rel="stylesheet" href="css/main.css">
-	<meta name="description" content='Просто мой сайт'>
-	<meta name="keywords" content='новый сайт, HTML,CSS'>
-	<!-- Favicon -->
-	<link rel="icon" href="#" type='image/x-icon'>
-	<link rel='shortcut icon' href='#' type='image/x-icon'>
-	<!-- OG Tags -->
-	<meta property='og:title' content='Просто новый сайт'>
-	<meta property='og:description' content='Новый сайт, с применением CSS'>
-	<meta property='og:type' content='web-site'>
-	<meta property='og:image' content='#'>
-	<meta property='og:site_name' content='TEST'>
-	<!-- CSS Styles -->
-</head>
+          <div class="grid-item-2">
+            <div class="image">
+              <img src="./images/transparent.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<body>
-	<header>
-		<div class="navigation">
-			<div class="container">
-				<a href="#" class="logo">MYLOGO</a>
-				<nav>
-					<ul class="menu">
-						<li>
-							<a href="index.html">Главная
-							</a>
-						</li>
-						<li>
-							<a href="#">Портфолио </a>
-						</li>
-						<li>
-							<a href="#"> Услуги
-							</a>
-						</li>
-						<li>
-							<a href="contacts.html"> Контакты
-							</a>
-						</li>
-					</ul>
-				</nav>
-				<a href="+78005553535" class="tel">+7 (800) 555-35-35</a>
-			</div>
-		</div>
-		<div class="ofer">
-			<div class="container">
-				<h1>Главный заголовок страницы</h1>
-				<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing <br>
-					elit, sed do eiusmod tempor incididunt ut labore </p>
-				<div class="borders">
-					<div class="test1">
-						<h3>Это тестовая карточка #1</h3>
-						<p class="black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-							incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-							ullamco laboris</p>
-					</div>
-					<div class="test2">
-						<h3>Это тестовая карточка #2</h3>
-						<p class="black">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-						</p>
-					</div>
-					<div class="test3">
-						<h3>Это тестовая карточка #3</h3>
-						<p class="black">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-							incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-							ullamco laboris</p>
-						<a href="#" target="_blink">Узнать больше</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	<section>
-		<div class="container">
-			<form action="#">
-				<h2>Заголовок второй секции</h2>
-				<input class="yellow" type="text" placeholder="Имя" required>
-				<input type="email" placeholder="E-mail" required>
-				<input type="tel" placeholder="Телефон" required>
-				<textarea name="Сообщение" placeholder="Сообщение"></textarea>
-				<input type="submit" name="submit" value="Отправить" class="submit">
-				<p class="save">Ваши данные надежно защищены</p>
-			</form>
+    <div class="lower-container container">
+      <section class="stats">
+        <div class="flex">
+          <div class="stat">
+            <i class="fa fa-folder-open fa-2x" aria-hidden="true"></i>
+            <h3 class="title">Зачем нужен пентестинг?</h3>
+            <p class="text">
+              Пентестинг - это важный инструмент для обеспечения безопасности
+              вашей компании. Он помогает выявить уязвимости, которые могут быть
+              использованы злоумышленниками для атаки на вашу организацию. Это
+              позволяет компаниям принимать меры по устранению уязвимостей и
+              укреплению своей безопасности.
+            </p>
+          </div>
+          <div class="stat">
+            <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
+            <h3 class="title">Разные типы пентестинга</h3>
+            <p class="text">
+              Существует несколько видов пентестинга, включая внутренний
+              пентестинг (проверка безопасности внутри компании), внешний
+              пентестинг (изучение уязвимостей снаружи), тестирование в
+              социальной инженерии и другие.
+            </p>
+          </div>
+          <div class="stat">
+            <i class="fa fa-credit-card-alt fa-2x" aria-hidden="true"></i>
+            <h3 class="title">Сертификации</h3>
+            <p class="text">
+              В индустрии пентестинга существует несколько известных
+              сертификаций, такие как Certified Ethical Hacker (CEH), Certified
+              Information Systems Security Professional (CISSP), и другие,
+              которые подтверждают квалификацию специалистов в области
+              безопасности.
+            </p>
+          </div>
+        </div>
+      </section>
 
-			<div class="card">
-				<div class="headline">
-					<h4>Заголовок карточки</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-						et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat. anim id est laborum</p>
-					<img src="img/ilustration.png" alt="Web design">
-				</div>
-				<div class="text">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-						et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-						aliquip ex ea commodo consequat. anim id est laborum. em ipsum dolor sit amet, consectetur adipisicing
-						elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<footer>
-		<div class="footer">
-			<div class="container">
-				<p>Все права защищены</p>
-				<input type="submit" value="Контурная кнопка" name="submit" class="square">
-				<input type="submit" value="Контурная кнопка" name="submit" class="square2">
-				<p class="white">Отрывок текста на белом фоне</p>
-				<p>Готово! Я - молодец :)</p>
-			</div>
-		</div>
-	</footer>
-</body>
-
+      <section class="testimonials">
+        <div class="container">
+          <div class="testimonial grid-3">
+            <div class="card">
+              <div class="circle">
+                <img src="./images/4.png" alt="" />
+              </div>
+              <h3>Социальная инженерия</h3>
+              <p>
+                Этот аспект включает в себя попытки обмана сотрудников компании
+                для получения доступа к информации.
+              </p>
+            </div>
+            <div class="card">
+              <div class="circle">
+                <img src="./images/5.png" alt="" />
+              </div>
+              <h3>Сетевое тестирование</h3>
+              <p>
+                Это включает в себя анализ сетевой инфраструктуры, обнаружение
+                открытых портов, конфигурацию брандмауэров и другие аспекты,
+                связанные с безопасностью сети.
+              </p>
+            </div>
+            <div class="card">
+              <div class="circle">
+                <img src="./images/6.png" alt="" />
+              </div>
+              <h3>Анализ безопасности беспроводных сетей</h3>
+              <p>
+                Включает в себя проверку на безопасность беспроводных сетей и
+                выявление уязвимостей в Wi-Fi сетях.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="container grid-3">
+        <div class="copyright">
+          <h1>Pentest</h1>
+          <p>Copyright &copy; 2023</p>
+        </div>
+        <nav class="links">
+          <ul>
+            <li><a href="" class="outline">Home</a></li>
+          </ul>
+        </nav>
+        <div class="profiles">
+          <a href=""><i class="fab fa-whatsapp fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
