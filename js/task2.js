@@ -1,4 +1,4 @@
-function nod(a, b) {
+function gcd(a, b) {
   while (b !== 0) {
     const temp = a % b;
     a = b;
@@ -9,5 +9,5 @@ function nod(a, b) {
 
 const a = 36;
 const b = 48;
-const result = nod(a, b);
+const result = gcd(a, b);
 console.log(`НОД ${a} и ${b} равен ${result}`);

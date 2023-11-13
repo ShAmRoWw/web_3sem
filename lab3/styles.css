@@ -63,9 +63,8 @@ footer a:hover {
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 1200px;
-  overflow: visible;
+  margin: 0 100px;
+  overflow: clip;
 }
 
 .navbar {
@@ -120,16 +119,16 @@ footer a:hover {
   padding-left: 7px;
 }
 
-.grid-item-1,
-.grid-item-2 {
+.flex-item-1,
+.flex-item-2 {
   position: relative;
   top: 50px;
 }
 
-.grid {
+.flex {
   overflow: visible;
-  display: grid;
-  grid-template-columns: 60% 40%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .btn {
@@ -211,9 +210,9 @@ footer a:hover {
   text-align: center;
 }
 
-.grid-3 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.flex-3 {
+  display: flex;
+  justify-content: space-between;
   gap: 40px;
 }
 
@@ -230,7 +229,7 @@ footer a:hover {
   height: 90px;
   position: relative;
   top: -30px;
-  left: 120px;
+  left: 50px;
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -238,9 +237,9 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-  .grid,
-  .grid-3 {
-    grid-template-columns: 1fr;
+  .flex,
+  .flex-3 {
+    flex-direction: column;
   }
 
   .stats .flex {
@@ -252,8 +251,8 @@ footer a:hover {
   }
 
   .image {
-    width: 600px;
-    margin-left: 80px;
+    width: 400px;
+    margin-left: 10px;
   }
 
   .stat {
@@ -267,7 +266,7 @@ footer a:hover {
     height: 90px;
     position: relative;
     top: -30px;
-    left: 270px;
+    left: 150px;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -310,8 +309,8 @@ footer a:hover {
   }
 
   .image {
-    width: 350px;
-    margin-left: 70px;
+    width: 150px;
+    margin-left: 10px;
   }
 
   .stat {
@@ -324,7 +323,7 @@ footer a:hover {
     height: 90px;
     position: relative;
     top: -30px;
-    left: 150px;
+    left: 10px;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
