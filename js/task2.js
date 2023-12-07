@@ -1,3 +1,4 @@
+// Нахождение НОД
 function gcd(a, b) {
   while (b !== 0) {
     const temp = a % b;

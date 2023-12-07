@@ -1,3 +1,4 @@
+// Pluralization
 function pluralizeRecords(n) {
   function getLastDigit(num) {
     return num % 10;

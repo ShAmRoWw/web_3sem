@@ -1,3 +1,4 @@
+// Наименьшая цифра
 function minDigit(x) {
   if (x < 0) {
     throw new Error("Число должно быть неотрицательным");

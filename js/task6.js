@@ -1,3 +1,4 @@
+// Сортировка объектов
 function getSortedArray(array, key) {
     // Реализуем алгоритм сортировки пузырьком
     for (let i = 0; i < array.length - 1; i++) {
