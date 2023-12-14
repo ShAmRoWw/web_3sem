@@ -3,7 +3,7 @@ body {
   background-color: #F2F5F1;
 }
 body .header {
-  background-color: #1d3557;
+  background-color: #63b952;
   color: white;
   font-size: 40px;
   padding: 20px;
@@ -88,7 +88,7 @@ body .container .facts-list-item .item-content {
 body .container .facts-list-item .item-footer {
   display: flex;
   padding: 10px;
-  background-color: #1d3557;
+  background-color: #63b952;
   color: white;
   font-weight: bold;
 }
